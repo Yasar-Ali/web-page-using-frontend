@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Webpage</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">MyWebsite</div>
+        <div class="nav-links">
+            <a href="#" class="active">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <button class="menu-toggle" id="menuToggle">
+            <i class="fas fa-bars" id="menuIcon"></i>
+            <span class="toggle-text"></span>
+        </button>
+
+        <aside class="left-menu" id="leftMenu">
+            <h3>Navigation</h3>
+            <ul>
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Settings</a></li>
+                <li><a href="#">Reports</a></li>
+                <li><a href="#">Analytics</a></li>
+            </ul>
+        </aside>
+
+        <main class="main-content" id="mainContent">
+            <h1>Welcome to Our Website</h1>
+            <p>This is a responsive webpage with a fixed navbar, collapsible left menu, and right panel.</p>
+            <div class="card">
+                <h2>Featured Content</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="card">
+                <h2>Latest Updates</h2>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+        </main>
+
+        <aside class="right-panel">
+            <h3>Quick Info</h3>
+            <div class="info-card">
+                <h4>Notifications</h4>
+                <p>You have 3 new messages</p>
+            </div>
+            <div class="info-card">
+                <h4>Recent Activity</h4>
+                <p>Last login: 2 hours ago</p>
+            </div>
+        </aside>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 MyWebsite. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
